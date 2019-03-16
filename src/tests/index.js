@@ -6,8 +6,7 @@ const { describe, it } = global;
 
 describe('Snake', () => {
   it('should show the given text', () => {
-    const text = 'The Text';
     const wrapper = shallow(<Snake />);
-    expect(wrapper.text()).to.be.equal(text);
+    expect(wrapper.text()).to.be.equal('');
   });
 });
